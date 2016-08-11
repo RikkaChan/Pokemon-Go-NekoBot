@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<UserSettingsXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AuthType>Ptc</AuthType> <!-- Ptc Only Sorry. -->
+  <DefaultLatitude>35.6949498412</DefaultLatitude> 
+  <DefaultLongitude>139.762772077</DefaultLongitude> 
+  <PtcPassword>PASSWORD</PtcPassword> <!-- Put your password here-->
+  <PtcUsername>USERNAME</PtcUsername> <!-- Put your username here-->
+  <EvolveAllGivenPokemons>true</EvolveAllGivenPokemons>
+  <TransferType>duplicate</TransferType> <!-- none/cp/leaveStrongest/duplicate/all -->
+  <TransferCPThreshold>0</TransferCPThreshold> <!-- Transfer pokemon with CP less than this value if cp transfer type is selected -->
+  <DoNotTransfer> <!-- These will not be transferred even when below the CP threshold -->
+    <PokemonId>Magikarp</PokemonId>
+    <PokemonId>Eevee</PokemonId>
+  </DoNotTransfer>
+  <UnwantedPokemonTypes>
+    <PokemonId>Pidgey</PokemonId>
+    <PokemonId>Rattata</PokemonId>
+  </UnwantedPokemonTypes>
+  <PokestopDelay>15000</PokestopDelay>
+</UserSettingsXml>
